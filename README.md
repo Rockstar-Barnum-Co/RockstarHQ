@@ -25,3 +25,8 @@ This project is configured for **Vercel auto-deployment** on push to the `main` 
 | `FIREBASE_PRIVATE_KEY`      | `-----BEGIN PRIVATE KEY-----\n...`     |
 | `NEXTAUTH_SECRET`           | `your_nextauth_secret_here`           |
 | `STRIPE_SECRET_KEY`         | `sk_test_...`
+
+## Development Notes
+
+These Firebase functions run on **Node.js 20**. Ensure that your local
+environment matches this version when testing or deploying.
