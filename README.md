@@ -25,3 +25,18 @@ This project is configured for **Vercel auto-deployment** on push to the `main` 
 | `FIREBASE_PRIVATE_KEY`      | `-----BEGIN PRIVATE KEY-----\n...`     |
 | `NEXTAUTH_SECRET`           | `your_nextauth_secret_here`           |
 | `STRIPE_SECRET_KEY`         | `sk_test_...`
+| `GITHUB_TOKEN`              | `ghp_xxx`                             |
+| `GITHUB_SPONSOR_USER`       | `rockstarbarnum`                      |
+| `CHASE_API_URL`             | `https://api.yourbank.com`            |
+| `CHASE_API_TOKEN`           | `chase_secret`                        |
+
+### Financial Sync
+Deploys a scheduled Cloud Function (`financialSyncJob`) that aggregates
+transactions from GitHub Sponsors, Stripe, and Chase. Results are stored in the
+`financials` collection in Firestore.
+
+To trigger a manual deployment, run:
+
+```bash
+npm run deploy
+```
