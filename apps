@@ -1,1 +1,25 @@
+# Apps Directory – RockstarHQ Monorepo
+
+This `/apps` folder contains all major apps, SaaS tools, and micro-frontends for Rockstar Barnum & Co.
+
+## Structure
+
+- **rockstarbarnum/**  
+  The main landing site for [rockstarbarnum.com](https://rockstarbarnum.com).
+
+- **barnumsstudio/**  
+  The SaaS dashboard, AI tools, and subscription services (for [barnumsstudio.online](https://barnumsstudio.online)).
+
+- **preservation-monitor/**  
+  Preservation STARZ and heritage monitoring tools (optional: add as needed).
+
+- **phoenecia/**  
+  Phoenecia Online app or directory platform.
+
+## Getting Started
+
+Each app should be a standalone Next.js or React project.  
+To add a new app, simply create a new subfolder here and scaffold your project (e.g., `npx create-next-app@latest`).
+
+Example:
 
