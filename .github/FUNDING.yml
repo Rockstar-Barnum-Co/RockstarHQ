@@ -1,0 +1,7 @@
+# Example FUNDING.yml for RockstarHQ
+
+github: ["rockstarbarnumco"]      # Your GitHub Sponsors username/org
+patreon: "rockstarbarnum"         # Your Patreon username (if available)
+open_collective: "rockstarbarnum" # Your OpenCollective username (if used)
+ko_fi: "rockstarbarnum"           # Ko-fi username (if used)
+custom: ["https://rockstarbarnum.com/fund", "https://rockstarbarnum.com/sponsor"]
