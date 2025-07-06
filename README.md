@@ -1,32 +1,42 @@
-# RockstarHQ
+# 🌍 RockstarHQ – Global Preservation Platform
 
-**RockstarHQ** is the internal command center for [Rockstar Barnum & Co.](https://rockstarbarnum.com) — powering AI dashboards, partner portals, admin tools, and smart preservation tech.
+**RockstarHQ** is the unified frontend deployment stack for [Rockstar Barnum & Co.](https://rockstarbarnum.com), powering real-time global initiatives across preservation, humanitarian logistics, smart infrastructure, and diaspora economics.
 
-> **"Classic American Industry meets Ancient Innovation."**
+> Built with [Next.js](https://nextjs.org/), deployed via [Vercel](https://vercel.com), and managed through this GitHub monorepo.
 
 ---
 
-## 🚀 Deployment
+## 🚀 Live Projects Powered by This Repo
 
-### Vercel Integration
-This project is configured for **Vercel auto-deployment** on push to the `main` branch.
+### 🔱 [Preservation STARZ](https://rockstarbarnum.com/preservation-starz)
+Humanitarian preservation tech and logistics in conflict zones (currently active in Gaza, Tyre, and UNESCO-priority sites). Includes:
+- AAPM Kiosk Deployment
+- Drone/Edge Site Monitoring
+- Preservation Kits (Solar, Starlink, Mobile Power)
 
-1. Go to [Vercel Dashboard](https://vercel.com/dashboard).
-2. Link this repository (`RockstarBarnumCo/RockstarHQ`) to your `rockstar-hq` project.
-3. Set `main` as the **Production Branch** under:
-   - `Settings > Git > Production Branch`
-4. Add the following **Environment Variables** under:
-   - `Settings > Environment Variables`
+### 🏛 [Phoenecia Online](https://rockstarbarnum.com/phoenecia)
+Global economic platform for the Lebanese diaspora. Features:
+- National Zoning System (Lebanon)
+- Diaspora Workforce Onboarding
+- Financial + Employment Infrastructure
 
-| Key                         | Example Value (placeholder)            |
-|----------------------------|----------------------------------------|
-| `NEXT_PUBLIC_FIREBASE_API_KEY` | `AIza...`                          |
-| `FIREBASE_CLIENT_EMAIL`     | `firebase-adminsdk@project.iam.gserviceaccount.com` |
-| `FIREBASE_PRIVATE_KEY`      | `-----BEGIN PRIVATE KEY-----\n...`     |
-| `NEXTAUTH_SECRET`           | `your_nextauth_secret_here`           |
-| `STRIPE_SECRET_KEY`         | `sk_test_...`
+### 🛠 [Rockstar Preservation USA](https://rockstarbarnum.com)
+Smart home and historical property preservation contracting across Fairfield County, CT. Includes:
+- Smart Moisture Monitoring
+- Subscription Services for Property Owners
+- Mobile Van Deployment (Project Roger)
 
-## Development Notes
+---
 
-These Firebase functions run on **Node.js 20**. Ensure that your local
-environment matches this version when testing or deploying.
+## 🧱 Tech Stack
+
+- ⚙️ **Framework:** Next.js (App Router, TypeScript)
+- 🌐 **Hosting:** Vercel (CDN, Edge Functions)
+- 🔐 **Optional Backends:**
+  - Firebase (auth, Firestore)
+  - Stripe (billing, subscriptions)
+  - GitHub Actions (CI/CD)
+
+---
+
+## 📁 Repo Structure
