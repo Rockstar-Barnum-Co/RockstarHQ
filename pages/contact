@@ -1,0 +1,17 @@
+import React from 'react';
+
+export default function Contact() {
+  return (
+    <main className="min-h-screen flex flex-col items-center justify-center bg-black text-white p-6">
+      <div className="w-full max-w-2xl">
+        <h1 className="text-3xl font-bold mb-4 text-center">Contact Rockstar Barnum & Co.</h1>
+        <form className="grid grid-cols-1 gap-4">
+          <input type="text" placeholder="Name" className="p-3 rounded bg-slate-800 border border-slate-700" />
+          <input type="email" placeholder="Email" className="p-3 rounded bg-slate-800 border border-slate-700" />
+          <textarea placeholder="Your message..." className="p-3 rounded bg-slate-800 border border-slate-700 h-32" />
+          <button className="bg-green-600 hover:bg-green-700 p-3 rounded font-semibold">Send Message</button>
+        </form>
+      </div>
+    </main>
+  );
+}
