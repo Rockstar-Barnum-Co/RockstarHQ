@@ -1,0 +1,40 @@
+import Head from 'next/head';
+
+export default function AboutPage() {
+  return (
+    <>
+      <Head>
+        <title>About Us – Rockstar Barnum & Co.</title>
+        <meta name="description" content="Learn more about Rockstar Barnum & Co. and our global preservation initiatives." />
+      </Head>
+
+      <main className="min-h-screen bg-white text-gray-800 p-8">
+        <div className="max-w-3xl mx-auto">
+          <h1 className="text-4xl font-bold mb-4">About Rockstar Barnum & Co.</h1>
+          <p className="text-lg mb-6">
+            Rockstar Barnum & Co. is a multidisciplinary preservation, technology, and logistics initiative headquartered in Bridgeport, Connecticut.
+            We are dedicated to restoring, repurposing, and revitalizing historical and strategic properties across the globe with a focus on sustainability, innovation, and cultural pride.
+          </p>
+
+          <h2 className="text-2xl font-semibold mt-8 mb-2">Our Mission</h2>
+          <p className="mb-4">
+            To serve as a global preservation and infrastructure hub, advancing economic self-sufficiency and cultural resilience through innovative technologies and real-world deployment strategies.
+          </p>
+
+          <h2 className="text-2xl font-semibold mt-8 mb-2">Strategic Focus</h2>
+          <ul className="list-disc ml-6">
+            <li>🚀 Preservation and redevelopment in conflict zones: Gaza, Tyre, Tripoli, and Baalbek</li>
+            <li>🏗 Smart infrastructure and workforce training systems</li>
+            <li>🌍 Diaspora economic reintegration through Phoenecia Online</li>
+            <li>📡 Modular logistics: drones, edge devices, Starlink, and AAPM kiosks</li>
+          </ul>
+
+          <h2 className="text-2xl font-semibold mt-8 mb-2">Our Team</h2>
+          <p>
+            Led by Rockstar, the Preservation Specialist, and coordinated by Helen, Rockstar Barnum & Co. operates as a privately driven force for strategic redevelopment, cultural preservation, and global logistics planning.
+          </p>
+        </div>
+      </main>
+    </>
+  );
+}
