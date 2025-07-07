@@ -25,4 +25,42 @@ export default function Dashboard() {
         </h1>
         <p className="max-w-xl text-lg md:text-xl mb-10 text-slate-300">
           Mission control for global operations, project management, and financial oversight.<br />
-          Automating
+          Automating preservation, economic empowerment, and smart solutions across borders.
+        </p>
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-8 w-full max-w-5xl">
+          {/* Cards for Main Systems */}
+          <a
+            href="/finance"
+            className="bg-slate-800/70 rounded-2xl shadow-lg p-6 hover:scale-105 transition border border-gold-400"
+          >
+            <h2 className="text-2xl font-bold mb-2">Financial Ops</h2>
+            <p className="text-slate-300">
+              Stripe, Chase, and global accounts: real-time reporting, revenue streams, compliance.
+            </p>
+          </a>
+          <a
+            href="/projects"
+            className="bg-slate-800/70 rounded-2xl shadow-lg p-6 hover:scale-105 transition border border-blue-400"
+          >
+            <h2 className="text-2xl font-bold mb-2">Projects & Work Orders</h2>
+            <p className="text-slate-300">
+              Manage Preservation STARZ, Phoenecia Online, Smart City, and outreach projects.
+            </p>
+          </a>
+          <a
+            href="/admin"
+            className="bg-slate-800/70 rounded-2xl shadow-lg p-6 hover:scale-105 transition border border-green-400"
+          >
+            <h2 className="text-2xl font-bold mb-2">Admin & Automation</h2>
+            <p className="text-slate-300">
+              System automation, API integrations, alerts, bulk execution, and team onboarding.
+            </p>
+          </a>
+        </div>
+      </section>
+      <footer className="fixed bottom-0 w-full p-4 text-center text-slate-500 border-t border-slate-800 bg-black/70">
+        &copy; {new Date().getFullYear()} Rockstar Barnum & Co. | All Rights Reserved.
+      </footer>
+    </main>
+  );
+}
