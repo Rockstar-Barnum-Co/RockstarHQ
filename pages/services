@@ -1,0 +1,23 @@
+import React from 'react';
+
+export default function Services() {
+  const services = [
+    "Smart Home Moisture & Safety Inspections",
+    "Historical Property Restoration (Gaza, CT, Lebanon)",
+    "AI-Powered Work Order Automation",
+    "Global Remittance Infrastructure for Diaspora",
+    "UNESCO/SHPO Compliance & Documentation Kits",
+    "Preservation Kit Deployment – Power + Internet",
+  ];
+
+  return (
+    <main className="min-h-screen bg-black text-white p-6">
+      <h1 className="text-4xl font-bold text-center mb-10">What We Offer</h1>
+      <ul className="max-w-3xl mx-auto space-y-4">
+        {services.map((s, i) => (
+          <li key={i} className="p-4 border border-slate-700 rounded-xl bg-slate-900 shadow-md">{s}</li>
+        ))}
+      </ul>
+    </main>
+  );
+}
